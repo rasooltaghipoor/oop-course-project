@@ -50,6 +50,7 @@
     <Compile Include="Player.cs" />
     <Compile Include="Coach.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="MainManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

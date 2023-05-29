@@ -16,14 +16,20 @@ namespace Final_Project
             this.position = position;
         }
 
-        public override void SaveToFile(string path)
+        public override void Edit()
         {
             // TODO: Implement me!
         }
 
-        public override void LoadFromFile(string path)
+        public override string GetDataAsString()
         {
-            // TODO: Implement me!
+            return null;
+            // TODO: Remove the above line and implement me!
+        }
+
+        public override void Print()
+        {
+            // TODO : Implement me!
         }
     }
 }

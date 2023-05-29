@@ -13,8 +13,17 @@ namespace Final_Project
             this.age = age;
         }
 
-        public abstract void SaveToFile(string path);
-        public abstract void LoadFromFile(string path);
+        public string GetName()
+        {
+            return name;
+        }
+
+        // You can use following line to get a private variable value instead of above function (GetName)
+        //public string Name => name;
+
+        public abstract void Edit();
+        public abstract string GetDataAsString();  // مقادیر متغیرهای کلاس را به عنوان یک رشته بر می گرداند
+        public abstract void Print();
 
     }
 }
